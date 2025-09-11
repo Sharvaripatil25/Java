@@ -1,3 +1,4 @@
+// Number guessing game
 import java.util.Scanner;
 
 public class NumberGuessing {
@@ -8,7 +9,7 @@ public class NumberGuessing {
         int userNumber;
         char ch;
         do{
-            System.out.println("Guess any Number between 1 to 100 :");
+            System.out.println("Guess any Number (between 1 to 100) :");
             userNumber=sc.nextInt();
 
             if(userNumber == myNumber){

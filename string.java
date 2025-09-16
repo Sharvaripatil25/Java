@@ -17,6 +17,6 @@ public class string
 	System.out.println("Length of String a =" + a);
 	//String concatenation
 	String str3=str1.concat(str2);
-	System.out.println("String str3 ="+str3);
-   }
+	System.out.println("String str3:"+str3);
+    }
 }

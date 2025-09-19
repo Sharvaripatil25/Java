@@ -13,6 +13,8 @@
 //Step 3:
 //Call start() method
 
+// Experiment 7 for PBL
+
 class Test1 extends Thread{
     public void run(){
         for(int i=0;i<5;i++){

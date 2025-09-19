@@ -1,4 +1,4 @@
-//finally-code in this block will be executed weither exception or not
+//finally-code in this block will be executed even if there is no exception
 import java.util.Scanner;
 public class finally1 {
     static void test()

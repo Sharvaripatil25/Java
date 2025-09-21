@@ -8,22 +8,6 @@ class InsufficientBalance extends Exception
     }
 }
 
-/*
-class InsufficientBalance extends Exception 
-{
-    double Balance;
-    InsufficientBalance (double b) 
-    {
-        Balance = b;
-    }
-    public String toString () 
-    {
-        String str = "Insufficient balance amount: " + Balance;
-        return str;
-    }
-}
-*/
-
 class InvalidAccountNumber extends Exception 
 {
     public InvalidAccountNumber (String message) 

@@ -5,7 +5,7 @@ class MyThread implements Runnable{
     {
         name=s;
         t=new Thread(this, name);
-        System.out.println("MyThread"+name+this);
+        System.out.println("MyThread "+name+t);
         t.start();
     }
     public void run()

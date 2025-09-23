@@ -1,4 +1,4 @@
-class MyThread implements Runnable{
+class MyThread extends Thread{
     String name;
     Thread t;
     MyThread(String s)
@@ -24,21 +24,6 @@ class MyThread implements Runnable{
         
     }
 }
-
-public class multithreading5 {
-    public static void main(String[] args){
-        new MyThread("Test1");
-        new MyThread("Test2");
-        new MyThread("Test3");
-        try{
-            for(int i=0;i<5;i++){
-            System.out.println("Main i:"+i);
-            Thread.sleep(1000);
-            }
-        }
-        catch(InterruptedException e){
-            System.out.println("Main thread is interrupted");
-        }
-        System.out.println("Exit from main");
-    }
+public class multithreading6 {
+    
 }

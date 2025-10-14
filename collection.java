@@ -5,6 +5,8 @@
 //3.Map(interface)-key-value pair,unique key,access with key
 
 import java.util.ArrayList;
+import java.util.Collections;
+
 
 public class collection {
     public static void main(String[] args) {
@@ -19,8 +21,10 @@ public class collection {
         name.remove(0);
         System.out.println(name);
         name.add(1,"sha");
+        Collections.sort(name);
         System.out.println(name);
         name.clear();
         System.out.println(name);
+        
     }
 }

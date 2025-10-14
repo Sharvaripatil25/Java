@@ -13,5 +13,14 @@ public class collection {
         name.add("def");
         name.add("ghi");
         System.out.println(name);
+        System.out.println(name.get(1));
+        name.set(1,"jkl");
+        System.out.println(name);
+        name.remove(0);
+        System.out.println(name);
+        name.add(1,"sha");
+        System.out.println(name);
+        name.clear();
+        System.out.println(name);
     }
 }

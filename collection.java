@@ -4,6 +4,7 @@
 //2.Set(interface)-unique data,
 //3.Map(interface)-key-value pair,unique key,access with key
 
+//1.List-arrayList:
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -25,6 +26,13 @@ public class collection {
         System.out.println(name);
         name.clear();
         System.out.println(name);
+        var nums = new ArrayList<Integer>();
+        nums.add(1);
+        nums.add(4);
+        nums.add(3);
+        System.out.println(nums);
+        Collections.sort(nums);
+        System.out.println(nums);
         
     }
 }

@@ -1,3 +1,5 @@
+//Generic class
+
 class SumAvg<T extends Number>
 {
     T[] arr;
@@ -20,10 +22,13 @@ public class generic3
     public static void main (String args[]){
         Integer arr1[]={1,2,3,4,5};
         Double arr2[]={1.1,2.2,3.3,4.4,5.5};
+        Float arr3[]={1.1f,2.2f,3.3f,4.4f,5.5f};
         SumAvg<Integer> obj1=new SumAvg<>(arr1);
         obj1.find();
         SumAvg<Double> obj2=new SumAvg<>(arr2);
         obj2.find();
+        SumAvg<Float> obj3=new SumAvg<>(arr3);
+        obj3.find();
     }
     
 }
